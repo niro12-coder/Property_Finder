@@ -14,7 +14,7 @@
             <DropShadow />
          </effect>
          <children>
-            <ImageView fitHeight="215.0" fitWidth="188.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="file:/D:/JavaFX/Property_Finder/src/main/java/com/example/propertyfinder/logo/large_1-rF9dirqF7-transformed.png" />
                </image></ImageView>
@@ -53,7 +53,7 @@
                <effect>
                   <InnerShadow>
                      <color>
-                        <Color red="0.18431372940540314" green="0.18039216101169586" blue="0.18039216101169586" />
+                        <Color red="0.18421052396297455" green="0.17909356951713562" blue="0.17909356951713562" />
                      </color>
                   </InnerShadow>
                </effect>
@@ -62,13 +62,6 @@
                <font>
                   <Font size="15.0" />
                </font>
-               <effect>
-                  <InnerShadow>
-                     <color>
-                        <Color red="0.18431372940540314" green="0.18039216101169586" blue="0.18039216101169586" />
-                     </color>
-                  </InnerShadow>
-               </effect>
             </Button>
             <Hyperlink layoutX="214.0" layoutY="238.0" text="Forgot Password?" textAlignment="RIGHT" />
          </children>
