@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.HelloController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.HelloController">
    <left>
       <AnchorPane prefHeight="400.0" prefWidth="221.0" style="-fx-background-color: #fff9f1;" BorderPane.alignment="CENTER">
          <effect>
             <DropShadow />
          </effect>
          <children>
-            <ImageView fitHeight="215.0" fitWidth="188.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="17.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/D:/JavaFX/Property_Finder/src/main/java/com/example/propertyfinder/logo/large_1-rF9dirqF7-transformed.png" />
-               </image></ImageView>
+                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/large_1-rF9dirqF7-transformed.png" />
+               </image>
+            </ImageView>
             <Label layoutX="38.0" layoutY="356.0" text="Copyright (C).All Rights Reserved">
                <font>
                   <Font size="10.0" />
@@ -50,25 +57,11 @@
                <font>
                   <Font size="15.0" />
                </font>
-               <effect>
-                  <InnerShadow>
-                     <color>
-                        <Color red="0.18431372940540314" green="0.18039216101169586" blue="0.18039216101169586" />
-                     </color>
-                  </InnerShadow>
-               </effect>
             </Button>
-            <Button layoutX="85.0" layoutY="325.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="190.0" style="-fx-background-color: #802b6e;" text="Register" textFill="WHITE">
+            <Button fx:id="register" layoutX="85.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#registeracc" prefHeight="31.0" prefWidth="190.0" style="-fx-background-color: #802b6e;" text="Register" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
-               <effect>
-                  <InnerShadow>
-                     <color>
-                        <Color red="0.18431372940540314" green="0.18039216101169586" blue="0.18039216101169586" />
-                     </color>
-                  </InnerShadow>
-               </effect>
             </Button>
             <Hyperlink layoutX="214.0" layoutY="238.0" text="Forgot Password?" textAlignment="RIGHT" />
          </children>
