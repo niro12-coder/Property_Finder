@@ -8,17 +8,16 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff9f1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.OwnerController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fff9f1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.OwnerController">
    <left>
       <AnchorPane prefHeight="400.0" prefWidth="162.0" style="-fx-background-color: #802b6e;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="45.0" layoutY="161.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="View Properties" textFill="WHITE">
+            <Button layoutX="45.0" layoutY="161.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="Search" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="45.0" layoutY="197.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="View Clients" textFill="WHITE">
+            <Button layoutX="45.0" layoutY="197.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="My Properties" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
@@ -45,12 +44,12 @@
             </Label>
             <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="17.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-property-50.png" />
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-search-52_1.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="17.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-manager-64.png" />
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-property-50.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="17.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
