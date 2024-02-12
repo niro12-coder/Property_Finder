@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fff9f1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.OwnerController">
+    <right>
+        <AnchorPane prefHeight="500.0" prefWidth="636.0" BorderPane.alignment="CENTER">
+            <children>
+                <ScrollPane layoutX="14.0" layoutY="183.0" prefHeight="294.0" prefWidth="613.0" style="-fx-background-color: #FFFDFD;">
+                    <content>
+                        <VBox prefHeight="319.0" prefWidth="617.0" style="-fx-background-color: #fffff;">
+                     <children>
+                        <HBox prefHeight="134.0" prefWidth="632.0" style="-fx-background-color: #FFFDFD;">
+                           <children>
+                              <AnchorPane prefHeight="124.0" prefWidth="609.0">
+                                 <children>
+                                    <AnchorPane layoutX="435.0" layoutY="8.0" prefHeight="114.0" prefWidth="146.0" style="-fx-background-color: #fff9f1; -fx-border-radius: 2em; -fx-background-radius: 4em; -fx-border-color: #020202 #802b6e;" />
+                                    <Label contentDisplay="CENTER" layoutX="259.0" layoutY="74.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="Bedrooms: 4" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="53.0" layoutY="70.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="City: El Rehab" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="53.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="192.0" text="Type: Apartment" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="259.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="130.0" text="Price: 4555L.E" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="221.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-price-50.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="46.0" fitWidth="29.0" layoutX="221.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-bedroom-64.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="10.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-city-50.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-property-51.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView accessibleRole="BUTTON" fitHeight="46.0" fitWidth="29.0" layoutX="389.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-info-50_1.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="134.0" prefWidth="632.0" style="-fx-background-color: #FFFDFD;">
+                           <children>
+                              <AnchorPane prefHeight="124.0" prefWidth="609.0">
+                                 <children>
+                                    <AnchorPane layoutX="435.0" layoutY="8.0" prefHeight="114.0" prefWidth="146.0" style="-fx-background-color: #fff9f1; -fx-border-radius: 2em; -fx-background-radius: 4em; -fx-border-color: #020202 #802b6e;" />
+                                    <Label contentDisplay="CENTER" layoutX="259.0" layoutY="74.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="Bedrooms: 4" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="53.0" layoutY="70.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="City: El Rehab" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="53.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="192.0" text="Type: Apartment" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="259.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="130.0" text="Price: 4555L.E" textFill="#4a1840">
+                                       <font>
+                                          <Font name="Arial" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="221.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-price-50.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="46.0" fitWidth="29.0" layoutX="221.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-bedroom-64.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="10.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-city-50.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-property-51.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView accessibleRole="BUTTON" fitHeight="46.0" fitWidth="29.0" layoutX="389.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-info-50_1.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <Label layoutX="7.0" layoutY="25.0" text="Search For Properties" textFill="#020202">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutX="10.0" layoutY="90.0" prefHeight="75.0" prefWidth="616.0" style="-fx-background-color: #ffffff; -fx-border-radius: 2em; -fx-background-radius: 4em;">
+                    <children>
+                        <TextField layoutY="24.0" prefHeight="28.0" prefWidth="175.0" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" text="Property Name" />
+                        <ImageView accessibleRole="BUTTON" fitHeight="21.0" fitWidth="25.0" layoutX="141.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-search-52.png" />
+                            </image>
+                        </ImageView>
+                        <ComboBox layoutX="177.0" layoutY="25.0" prefHeight="28.0" prefWidth="125.0" promptText="Propety Types" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" />
+                        <ComboBox layoutX="302.0" layoutY="25.0" prefHeight="28.0" prefWidth="107.0" promptText="Bedrooms" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" />
+                        <ComboBox layoutX="409.0" layoutY="25.0" prefHeight="28.0" prefWidth="98.0" promptText="Price" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" />
+                        <Button layoutX="512.0" layoutY="17.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="81.0" style="-fx-background-color: #802b6e;" text="Search" textAlignment="CENTER" textFill="#fffdfd">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <Button layoutX="487.0" layoutY="32.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="121.0" style="-fx-border-radius: 2em; -fx-background-color: #802b6e; -fx-border-color: #fffdfd; -fx-background-radius: 5em;" text="Sepecial Offers" textFill="#fffdfd" />
+            </children></AnchorPane>
+    </right>
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="168.8" style="-fx-background-color: #802b6e;">
+         <children>
+            <Button layoutX="45.0" layoutY="197.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="Search" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="46.0" layoutY="244.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="My Properties" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="48.0" layoutY="291.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="Edit Profile" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="45.0" layoutY="399.0" mnemonicParsing="false" style="-fx-background-color: #802b6e;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="45.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-user-64%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="29.0" layoutY="121.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="17.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-search-52_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="17.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-property-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="18.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-registration-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="23.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-logout-48.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </left>
+</BorderPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="134.0" prefWidth="632.0" style="-fx-background-color: #FFFDFD;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="124.0" prefWidth="609.0">
+         <children>
+            <AnchorPane layoutX="435.0" layoutY="8.0" prefHeight="114.0" prefWidth="146.0" style="-fx-background-color: #fff9f1; -fx-border-radius: 2em; -fx-background-radius: 4em; -fx-border-color: #020202 #802b6e;" />
+            <Label contentDisplay="CENTER" layoutX="259.0" layoutY="74.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="Bedrooms: 4" textFill="#4a1840">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="53.0" layoutY="70.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="149.0" text="City: El Rehab" textFill="#4a1840">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="53.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="192.0" text="Type: Apartment" textFill="#4a1840">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="259.0" layoutY="23.0" lineSpacing="11.0" prefHeight="21.0" prefWidth="130.0" text="Price: 4555L.E" textFill="#4a1840">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="221.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-price-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="29.0" layoutX="221.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-bedroom-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="10.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-city-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="29.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-property-51.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="46.0" fitWidth="29.0" layoutX="389.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-info-50_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
