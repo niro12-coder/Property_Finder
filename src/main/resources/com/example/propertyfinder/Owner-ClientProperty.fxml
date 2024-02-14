@@ -15,46 +15,46 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fff9f1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.propertyfinder.OwnerController">
     <right>
-        <AnchorPane prefHeight="400.0" prefWidth="439.0" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="500.0" prefWidth="634.0" BorderPane.alignment="CENTER">
             <children>
-                <TextField layoutX="246.0" layoutY="39.0" prefHeight="28.0" prefWidth="173.0" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" />
+                <TextField layoutX="429.0" layoutY="35.0" prefHeight="28.0" prefWidth="173.0" style="-fx-border-radius: 2em; -fx-background-color: #fff9f1; -fx-border-color: #020202 #802b6e; -fx-background-radius: 5em;" />
                 <Label layoutX="14.0" layoutY="14.0" text="View Properties" textFill="#020202">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <HBox layoutX="13.0" layoutY="156.0" prefHeight="29.0" prefWidth="412.0" style="-fx-background-color: #FFFDFD;">
+                <HBox layoutX="45.0" layoutY="156.0" prefHeight="30.0" prefWidth="556.0" style="-fx-background-color: #FFFDFD;">
                     <children>
-                        <Label prefHeight="20.0" prefWidth="101.0" text="First Name" textFill="#020202">
+                        <Label prefHeight="20.0" prefWidth="115.0" text="First Name" textFill="#020202">
                             <font>
                                 <Font name="Arial" size="14.0" />
                             </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="112.0" text="Phonenumber" textFill="#020202">
+                        <Label prefHeight="20.0" prefWidth="123.0" text="Phonenumber" textFill="#020202">
                             <font>
                                 <Font name="Arial" size="14.0" />
                             </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="85.0" text="PropertyID" textFill="#020202">
+                        <Label prefHeight="20.0" prefWidth="112.0" text="PropertyID" textFill="#020202">
                             <font>
                                 <Font name="Arial" size="14.0" />
                             </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="63.0" text="Price" textFill="#020202">
+                        <Label prefHeight="20.0" prefWidth="94.0" text="Price" textFill="#020202">
                             <font>
                                 <Font name="Arial" size="14.0" />
                             </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="49.0" text="Status" textFill="#020202">
+                        <Label prefHeight="20.0" prefWidth="73.0" text="Status" textFill="#020202">
                             <font>
                                 <Font name="Arial" size="14.0" />
                             </font>
                         </Label>
                     </children>
                 </HBox>
-                <ScrollPane layoutX="-190.0" layoutY="195.0" prefHeight="298.0" prefWidth="622.0" style="-fx-background-color: #FFFDFD;">
+                <ScrollPane layoutX="11.0" layoutY="195.0" prefHeight="298.0" prefWidth="613.0" style="-fx-background-color: #FFFDFD;">
                     <content>
-                        <VBox prefHeight="285.0" prefWidth="671.0" style="-fx-background-color: #fffff;">
+                        <VBox prefHeight="286.0" prefWidth="675.0" style="-fx-background-color: #fffff;">
                             <children>
                                 <HBox prefHeight="12.0" prefWidth="675.0" style="-fx-background-color: #FFFDFD;">
                                     <children>
@@ -153,7 +153,7 @@
                         </VBox>
                     </content>
                 </ScrollPane>
-                <HBox layoutX="25.0" layoutY="80.0" prefHeight="67.0" prefWidth="395.0" style="-fx-background-color: #fff9f1;">
+                <HBox layoutX="114.0" layoutY="75.0" prefHeight="67.0" prefWidth="402.0" style="-fx-background-color: #fff9f1;">
                     <children>
                         <VBox prefHeight="89.0" prefWidth="132.0">
                             <children>
@@ -199,12 +199,12 @@
                         </VBox>
                     </children>
                 </HBox>
-                <ImageView accessibleRole="BUTTON" fitHeight="21.0" fitWidth="25.0" layoutX="393.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView accessibleRole="BUTTON" fitHeight="21.0" fitWidth="25.0" layoutX="576.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@../../../../java/com/example/propertyfinder/logo/icons8-search-52.png" />
                     </image>
                 </ImageView>
-                <ImageView accessibleRole="BUTTON" fitHeight="27.0" fitWidth="33.0" layoutX="411.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView accessibleRole="BUTTON" fitHeight="27.0" fitWidth="33.0" layoutX="601.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="file:/C:/Users/Lenovo/IdeaProjects/propertyFinder/src/main/java/com/example/propertyfinder/logo/icons8-refresh-50.png" />
                     </image>
